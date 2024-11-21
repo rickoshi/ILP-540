@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>  
+    <link rel="stylesheet" href="form.css" />
+ </head>
+ <body>
+    <fieldset>
+    <h1>CADASTRO DE CLIENTES</h1>
+     
+    <h2>Novo cliente</h2> 
+
+    <form name="form2" id="form2" action="incluir.php">
+      <p>
+        <b><label for="user2">Nome: &nbsp;</label></b>
+          <input type="text" name="user2" id="user2" size="45" autofocus/> 
+          <span id="msgUser">*</span>
+      </p><p>       
+        <b><label for="email2">E-mail: &nbsp;</label></b>
+          <input type="text" name="email2" id="email2"  size="45"/> 
+          <span id="msgEmail">*</span>    
+      </p>
+    <div id="botao">
+      <p>     
+        <button onclick="javascript:window.location='listar.php'" type="button" id="list"><b>Listar</b></button> 
+      </p><p>
+        <input type="submit" id="incl" value="Cadastrar">
+
+        </p> 
+    </div>
+    </form>     
+
+    </fieldset> 
+
+    <h2></h2>
+
+    <body onload="time()">
+    <h1 id="dia"></h2>
+    <h1 id="hora"></h2>
+
+    <canvas id="canvas" width="150" height="150">The current time</canvas>
+
+    <div id="resultado"></div> 
+
+    <script src="form.js"></script>   
+ </body>
+</html>
+        

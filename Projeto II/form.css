@@ -1,0 +1,71 @@
+
+body {
+    padding: 3% 20%;
+}
+form {
+    width: 70%;
+    padding: 3% 7%;    
+}
+input:focus {
+    border: 2px solid cyan;  
+    background-color: lightcyan;   
+} 
+
+span {
+    color: #ee0000; 
+    font-size: .8em;    
+} 
+
+h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2, h3 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#botao { 
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 75px;
+}
+
+#list {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#incl {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 55px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
